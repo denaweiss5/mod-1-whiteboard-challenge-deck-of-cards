@@ -1,9 +1,11 @@
 # spec/deck_spec.rb
 
+
 require_relative "../solution.rb"
 
 describe "Deck" do
   let(:test_deck) { Deck.new }
+
 
   it "initializes with an array of Card objects" do
     expect(test_deck.cards.first).to be_a(Card)
